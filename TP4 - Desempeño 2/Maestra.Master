@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Maestra.master.cs" Inherits="TP4___Desempeño_2.Maestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TP4 - Desempeño 2</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Master.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+    <form id="form1" runat="server">
+        <div>
+         <nav>
+        <ul>
+            <li><a href="Registracion.aspx">Registro</a></li>
+            <li><a href="Formulario2.aspx">Gestión de Archivos</a></li>
+        </ul>
+    </nav>
+
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+    <hr />
+    <p>Copyright Matias Rodrigues 2023</p>
+</footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>
